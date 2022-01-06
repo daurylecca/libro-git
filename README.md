@@ -1,5 +1,8 @@
 # 1. Setup
 
+Primero instala Gitflow
+➜  ~ brew install git-flow 
+
 Para contribuir a un proyecto de GitHub, necesitará dos cosas: un Fork de GitHub y un clon local de este proyecto.
 
 ## :running: Activities
@@ -63,7 +66,9 @@ $ git remote show origin
 ```
 
 
-# Una vez culminado el setup, dirígete a la raíz del proyecto e inicia los comandos:
+# Una vez culminado el setup, dirígete a la raíz del proyecto e inicia el comandos:
+➜  ~ git flow init
+
 
 ## Ejercicio 1
 Crear una nueva rama feature bibliografia.
