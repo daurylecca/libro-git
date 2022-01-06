@@ -1,6 +1,7 @@
 # 1. Setup
 
-Primero instala Gitflow
+Primero instala Gitflow:
+
 ➜  ~ brew install git-flow 
 
 Para contribuir a un proyecto de GitHub, necesitará dos cosas: un Fork de GitHub y un clon local de este proyecto.
