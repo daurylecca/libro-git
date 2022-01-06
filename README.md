@@ -61,3 +61,47 @@ $ git remote show origin
   Local ref configured for 'git push':
     master  pushes to master (up to date)
 ```
+
+
+# Una vez culminado el setup, dirígete a la raíz del proyecto e inicia los comandos:
+
+## Ejercicio 1
+Crear una nueva rama feature bibliografia.
+
+## Ejercicio 2
+Crear un archivo en la siguiente dirección: capitulos/capitulo4.txt y añadir el texto siguiente
+“En este capítulo veremos cómo usar GitFlow para alojar repositorios en remoto.”
+
+Hacer un commit con el mensaje “Añadido capítulo 4.
+
+## Ejercicio 3
+Cambiar a la rama feature/bibliografia.
+Crear el fichero bibliografia.txt y añadir la siguiente referencia
+“Chacon, S. and Straub, B. Pro Git. Apress.”
+
+Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.”
+
+## Ejercicio 4
+Crear nueva rama release v1.x.x
+
+Añade un archivo que se llame versionado.txt y escribele
+"Esta es la versión 1.0.0"
+
+Finaliza la rama release.
+
+## Ejercicio 5
+
+Crear una nueva rama hotfix bibliografia desde release/v1.x.x
+Cambiar a la rama hotfix/bibliografia.
+
+Cambiar el archivo bibliografia.txt para que contenga las siguientes referencias:
+“Scott Chacon and Ben Straub. Pro Git. Apress.
+Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)”
+
+Cambiar el archivo versionado.txt para que contenga :
+"Esta es la versión 1.0.1"
+
+hacer un commit con el mensaje “Modificada la referencia bibliográfica.”
+
+### finalizar hotfix.
+
